@@ -1,0 +1,52 @@
+[
+    {
+        "SKU": "12345",
+        "Name": "Test Material",
+        "Description": "This is the description of the material",
+        "StandardPrice": 10,
+        "StandardCost": 5,
+        "UOM": {
+            "UPC": "0000123456",
+            "Weight": 2,
+            "Height": 3,
+            "Width": 1,
+            "Length": 3,
+            "Volume": 9,
+            "StandardPrice": 10,
+            "StandardCost": 5
+        },
+        "UDF": [
+            {
+                "Key": "Color",
+                "Value": "red"
+            }
+        ]
+    },
+    {
+        "SKU": "98765",
+        "Name": "Test Material",
+        "Description": "This is the description of the material",
+        "StandardPrice": 10,
+        "StandardCost": 5,
+        "UOM": {
+            "UPC": "0000123456",
+            "Weight": 2,
+            "Height": 3,
+            "Width": 1,
+            "Length": 3,
+            "Volume": 9,
+            "StandardPrice": 10,
+            "StandardCost": 5
+        },
+        "UDF": [
+            {
+                "Key": "Color",
+                "Value": "blue"
+            },
+            {
+                "Key": "Size",
+                "Value": "Large"
+            }
+        ]
+    }
+]
