@@ -1,0 +1,57 @@
+{
+    "status": "success",
+    "code": "200",
+    "message": "Successfully Retrieved Inventory Adjustment Details",
+    "data": [
+        {
+            "notes": "Over-Recieved",
+            "actualInventoryAmount": -12,
+            "UOM": "Each",
+            "taskId": 95159008,
+            "completedDateTime": "2021-08-23T08:01:52.617Z",
+            "operationCode": {
+                "operationCodeId": 1,
+                "operationCodeName": "Inventory Adjustment"
+            },
+            "material": {
+                "materialLookupCode": "DMBCP01",
+                "materialId": 633857,
+                "upcCode": "854412369543"
+            },
+            "reasonCode": {
+                "reasonCodeId": 57,
+                "reasonCodeName": "Receiving Error"
+            },
+            "lot": {
+                "lotLookupCode": "DMBCP01-Glot",
+                "lotId": 684870,
+                "lotExpirationDate": "2021-08-16T14:15:04.790Z"
+            }
+        },
+        {
+            "notes": "Tablet PULL Adjustment: Wade W Reason: Cycle Cnt",
+            "actualInventoryAmount": 3,
+            "UOM": "Each",
+            "taskId": 95165983,
+            "completedDateTime": "2021-08-23T09:18:10.203Z",
+            "operationCode": {
+                "operationCodeId": 1,
+                "operationCodeName": "Inventory Adjustment"
+            },
+            "material": {
+                "materialLookupCode": "DMBCP02",
+                "materialId": 620107,
+                "upcCode": "854412369544"
+            },
+            "reasonCode": {
+                "reasonCodeId": 24,
+                "reasonCodeName": "CYCLE CNT"
+            },
+            "lot": {
+                "lotLookupCode": "DMBCP02-Glot",
+                "lotId": 669573,
+                "lotExpirationDate": "2021-04-19T11:30:05.123Z"
+            }
+        }
+    ]
+}
