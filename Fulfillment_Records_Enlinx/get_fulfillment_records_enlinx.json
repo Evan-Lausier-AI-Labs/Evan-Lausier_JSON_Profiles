@@ -1,0 +1,66 @@
+{
+    "message": "Successfully retrieved tracking number",
+    "code": 200,
+    "data": [
+        {
+            "orderReference": "123456789",
+            "externalId": "123456789",
+            "containerDimensionUOM": "in",
+            "orderNotes": "Order Notes Here",
+            "shipMethod": "FXG",
+            "trackingNumber": "XXXXXXXXXXXXXXXX",
+            "shipmentId": 211143751,
+            "scac": "FDEG",
+            "containerLength": 13,
+            "brokerReference": "A123456789",
+            "billOfLading": "22823341",
+            "lineItems": [
+                {
+                    "externalLineId": "1",
+                    "sku": "PRODUCT1",
+                    "upc": "800000000000",
+                    "ucc128": "00000000010132226704",
+                    "skuDesc": "Really Good Test Product",
+                    "lot": "PRODUCT1-Glot",
+                    "lotExpirationDate": "2018-07-30T13:31:13.027Z",
+                    "containerNumber": "1013222670",
+                    "containerWeight": 20.8,
+                    "expectedPackagedAmount": 10,
+                    "actualPackagedAmount": 10,
+                    "orderLineNumber": 3
+                },
+                {
+                    "externalLineId": "2",
+                    "sku": "PRODUCT2",
+                    "upc": "8600000000000",
+                    "ucc128": "00000000010132226704",
+                    "skuDesc": "Imaginary Product",
+                    "lot": "PRODUCT2-Glot",
+                    "lotExpirationDate": "2100-01-01T00:00:00.000Z",
+                    "containerNumber": "1013222670",
+                    "containerWeight": 20.8,
+                    "expectedPackagedAmount": 15,
+                    "actualPackagedAmount": 15,
+                    "orderLineNumber": 2
+                }
+            ],
+            "containerWeightUOM": "lb",
+            "returnBoxTracking": null,
+            "carrierName": "FedEx",
+            "shipDate": "2020-09-01T08:40:26.423Z",
+            "containerWeight": 20.8,
+            "containerWidth": 13,
+            "containerHeight": 8.5,
+            "vendorReference": "40511*",
+            "tradePartnerID": null,
+            "custom": {
+                "LotExpiration": "2018-07-30T13:31:13.027Z",
+                "skuDesc": "Imaginary Product",
+                "ucc128": "00000000010132226704",
+                "Lot": "PRODUCT2-Glot",
+                "containerNumber": "1013222670",
+                "containerWeight": 20.8
+            }
+        }
+    ]
+}
