@@ -1,0 +1,56 @@
+{
+    "code": "200",
+    "data": [
+        {
+            "billOfLading": null,
+            "orderReference": "20200706003",
+            "line_items": [
+                {
+                    "receiptDate": "2021-04-05T09:05:00.000Z",
+                    "sku": "123PRODSKU",
+                    "rmaQuality": "A",
+                    "notes": "CUSTOMER RETURN - NEW/UNOPENED",
+                    "description": "Product sku 123",
+                    "orderLineNumber": 1,
+                    "externalLineId": "",
+                    "orderedAmount": 1,
+                    "receivedAmount": 1
+                },
+                {
+                    "receiptDate": "2021-04-05T09:05:00.000Z",
+                    "sku": "456PRODSKU",
+                    "rmaQuality": "C",
+                    "notes": "CUSTOMER RETURN - x1 REKIT - x1 DAMAGED",
+                    "description": "Product sku 456",
+                    "orderLineNumber": 2,
+                    "externalLineId": "",
+                    "orderedAmount": 1,
+                    "receivedAmount": 1
+                }
+            ],
+            "vendorReference": "20200706003",
+            "returnReason": "Customer Choice"
+        },
+        {
+            "billOfLading": null,
+            "orderReference": "20200706004",
+            "line_items": [
+                {
+                    "receiptDate": "2021-04-05T09:08:00.000Z",
+                    "sku": "789PRODSKU",
+                    "rmaQuality": "B",
+                    "notes": "CUSTOMER RETURN - RTS:INSUFFICIENT ADDRESS - NEW/UNOPENED",
+                    "description": "Product sku 789",
+                    "orderLineNumber": 1,
+                    "externalLineId": "",
+                    "orderedAmount": 1,
+                    "receivedAmount": 1
+                }
+            ],
+            "vendorReference": "20200706004",
+            "returnReason": "Damaged Product"
+        }
+    ],
+    "message": "Successfully retrieved receipt details",
+    "status": "success"
+}
