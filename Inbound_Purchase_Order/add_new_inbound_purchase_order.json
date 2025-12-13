@@ -1,0 +1,32 @@
+{
+    "id": "XXXXXXX",
+    "created_at": "2021-05-28T11:11:43.000Z",
+    "expected_date": "2021-06-08T12:00:00.000Z",
+    "shipping_carrier_code": "UGND",
+    "order_class_code": "RMA",
+    "vendor_name": "Jane Doe",
+    "shipping_address_1": "123 Sunnyside Ave",
+    "shipping_address_2": "",
+    "shipping_city": "San Francisco",
+    "shipping_state": "CA",
+    "shipping_zip": "80000",
+    "shipping_country": "US",
+    "order_reference": "XXXX",
+    "total_value": 50,
+    "line_items": [
+        {
+            "quantity": 2,
+            "price": 5,
+            "notes": "Note to warehouse",
+            "sku": "123PRODSKU",
+            "id": "xxx"
+        },
+        {
+            "quantity": 1,
+            "price": 40,
+            "notes": "Note to warehouse",
+            "sku": "123PRODSKU2",
+            "id": "xxx"
+        }
+    ]
+}
