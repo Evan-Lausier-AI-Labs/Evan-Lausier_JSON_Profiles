@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "otherrefnum": "PO-12345",
+            "netsuite_id": 123456,
+            "fulfillments": null,
+            "is_fulfilled": null
+        },
+        {
+            "otherrefnum": "FSD85131",
+            "netsuite_id": 1234266,
+            "status": "Partially Fulfilled",
+            "fulfillments": {
+                "packages": [
+                    {
+                        "packageItems": {
+                            "59170100": {
+                                "id": "2854",
+                                "sku": "59170100",
+                                "upc": "810026142970",
+                                "quantity": "4",
+                                "description": "Patriot Power Cell"
+                            },
+                            "59300023": {
+                                "id": "2080",
+                                "sku": "59300023",
+                                "upc": "810026143465",
+                                "quantity": "1",
+                                "description": "4Patriot Catalog"
+                            },
+                            "59300024": {
+                                "id": "2081",
+                                "sku": "59300024",
+                                "upc": "18100488",
+                                "quantity": "1",
+                                "description": "4Patriot Letter"
+                            }
+                        },
+                        "custrecord_packages_carrier": "UPS",
+                        "custrecord_packages_service": "UPS SurePost",
+                        "custrecord_packages_tracking": "1Z198A5FYW02805643"
+                    }
+                ]
+            },
+            "is_fulfilled": 1
+        }
+    ]
+}

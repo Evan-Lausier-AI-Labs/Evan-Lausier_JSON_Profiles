@@ -9,8 +9,7 @@ A collection of JSON integration profiles for 3PL/WMS system integrations, prima
 | [Inbound_Purchase_Order](./Inbound_Purchase_Order) | Request | Create inbound purchase orders (RMAs) via Instalink API |
 | [Material](./Material) | Request | Create/update materials (items/SKUs) via Instalink API v2 |
 | [Sales_Outbound_Order](./Sales_Outbound_Order) | Request | Create outbound sales orders for fulfillment |
-| [Fulfillment_Records_](./Fulfillment_Records_Enlinx) | Response | Retrieve fulfillment/shipment data from 3PL |
-| [Fulfillment NetSuite_Records](./Fulfillment_Records_Lion) | Response | Retrieve fulfillment data with package-level detail from NetSuite 3PL |
+| [Fulfillment_Records_NetSuite](./Fulfillment_Records_NetSuite) | Response | Retrieve fulfillment data with package-level detail from NetSuite 3PL |
 | [Inventory_Adjustments](./Inventory_Adjustments) | Response | Retrieve inventory adjustment records |
 | [Receipt_Records](./Receipt_Records) | Response | Retrieve receipt/receiving records (RMA receipts) |
 
